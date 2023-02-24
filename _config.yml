@@ -52,10 +52,7 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - University of the West of England,
-    - Frenchay Campus, Bristol, BS16 1QY,
-    - United Kingdom.
-email: matthew2.cheung@live.uwe.ac.uk
+email: cheung2010@outlook.com
 
 
 
@@ -63,13 +60,13 @@ email: matthew2.cheung@live.uwe.ac.uk
 
 # Members information. Shown on About page.
 members:
-  - name: Mathew Cheung
-    position: Student
-    text: I am currently transitioning in to my third year into Games Technology at Univerty of the West of England(UWE).
+  - name: Matthew Cheung
+    position: Unemployed
+    text: Currently looking for new opportunities.
     img: profile_pic.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:matthew2.cheung@live.uwe.ac.uk
+        url: mailto:cheung2010@outlook.com
       - title: twitter
         url: http://twitter.com/cheung2010
 
