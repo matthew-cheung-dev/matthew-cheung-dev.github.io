@@ -43,9 +43,7 @@ During my time working on Virtalis Reach, I have worked on:
 - Using Rest API to fetch scene data.
 
 Both products I had to overcome some challenges. Such as performance of the rendering systems as CAD data
-can be very complex. Especially trying to render these geometries in a browser.
-
-
+can be very complex. Especially trying to render these geometries in a browser. Both renderers used deferred rendering techniques.
 
 <b>Visionary Render Technologies:</b>
 - C/C++

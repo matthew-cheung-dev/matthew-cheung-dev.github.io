@@ -11,23 +11,29 @@ carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
-tagged: Developement, Rendering, Collision, Animation, Skeletal Mesh, Ray Tracing
+tagged: Developement, Rendering, Collision, Animation, Skeletal Mesh, Ray Tracing, OpenGL
 client: University Project
 published: true
 ---
-#### YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+#### Advanced Technologies Project
 
-#### Our Proposal
+These are projects created during my third year at university called Advanced Technologies. This module puts a focue
+on studying and implementing low-level technologies in games.
+
+#### Collision System
 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-<b>Git Repositories</b>
+### Ray Tracer
 
+
+### Skeletal Animations
+
+### Git Repositories
 - [Collision System][collision]
 - [Ray Tracer][raytracer]
 - [Skeletal Animation][animation]
 
-[Demo Reel][demo]
+[Watch the demo reel][demo]
 
 [demo]:https://drive.google.com/file/d/164-ffS5rPAAIDCRsbX7ALMpj2qgmdA8r/view?usp=share_link
 [collision]:https://github.com/matthew-cheung-dev/AdvancedTechnologiesProject1
