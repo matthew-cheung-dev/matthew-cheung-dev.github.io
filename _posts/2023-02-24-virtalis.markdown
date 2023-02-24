@@ -12,6 +12,7 @@ published: true
 
 - I joined Virtalis as a Junior Software Product Developer in August 2019.
 - Moved onto being a Professional Software Product Developer in April 2021.
+- Left Virtalis in April 2022<!--more-->
 
 Products I've worked on: 
 
