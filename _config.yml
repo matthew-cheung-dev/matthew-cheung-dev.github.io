@@ -5,7 +5,7 @@ title: Matthew Cheung
 description: "Games Stuff"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
-url: "https://cheung2509.github.io/"
+url: "https://matthew-cheung-dev.github.io/"
 
 # Build settings
 highlighter: rouge
