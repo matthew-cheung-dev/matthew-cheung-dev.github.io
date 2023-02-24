@@ -5,12 +5,12 @@ date:   2023-02-24 16:54:46
 author: Matthew Cheung
 categories:
 - project
-img: portfolio_10.jpg
-thumb: thumb02.jpg
+img: AT.png
+thumb: AT.png
 carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg
+- collision.png
+- raytracer.png
+- skeletal-animation.png
 tagged: Developement, Rendering, Collision, Animation, Skeletal Mesh, Ray Tracing, OpenGL
 client: University Project
 published: true
