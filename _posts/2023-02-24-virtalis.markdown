@@ -4,8 +4,8 @@ title: "Virtalis"
 date: 2023-02-24 16:54:46
 author: Matthew Cheung
 categories:
-- blog
-- experience
+- Blog
+- Experience
 img: virtalis.png
 thumb: virtalis.png
 ---
