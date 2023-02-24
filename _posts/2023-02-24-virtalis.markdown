@@ -4,6 +4,7 @@ title: "Logo design contest starts now"
 date: 2023-02-24 16:54:46
 author: Admin
 categories:
+- blog
 - experience
 img: post03.jpg
 thumb: thumb03.jpg
