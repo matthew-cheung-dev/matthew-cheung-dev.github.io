@@ -13,9 +13,10 @@ published: true
 - I joined Virtalis as a Junior Software Product Developer in August 2019.
 - Moved onto being a Professional Software Product Developer in April 2021.
 
-During my time at Virtalis I have been maintaining the main product Visionary Render and later on 
-joined another team to assist in developing Virtalis Reach a web client used to run Visionary Render scenes.
+During my time at Virtalis I have been maintaining the main product [Visionary Render][visren] and later on 
+joined another team to assist in developing [Virtalis Reach][reach] a web client used to run [Visionary Render][visren] scenes.
 
+Technologies
 
-[Visionary Render]: https://www.virtalis.com/software/visionary-render
-[Virtalis Reach]: https://www.virtalis.com/software/virtalis-reach
+[visren]: https://www.virtalis.com/software/visionary-render
+[reach]: https://www.virtalis.com/software/virtalis-reach
