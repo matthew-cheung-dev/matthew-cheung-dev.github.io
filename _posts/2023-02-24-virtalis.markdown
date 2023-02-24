@@ -13,10 +13,56 @@ published: true
 - I joined Virtalis as a Junior Software Product Developer in August 2019.
 - Moved onto being a Professional Software Product Developer in April 2021.
 
-During my time at Virtalis I have been maintaining the main product [Visionary Render][visren] and later on 
-joined another team to assist in developing [Virtalis Reach][reach] a web client used to run [Visionary Render][visren] scenes.
+Products I've worked on: 
 
-Technologies
+<b>Visionary Render</b>
+
+Visionary Render is a design review tool for business to review/visualise their CAD data. It can also be
+used to develop training simulations as well.
+
+During my time working on Visionary Render, I was mainly working on rendering systems. This includes:
+
+- Animation Systems: How the application manages animations imported by customers.
+- Rendering pipelines: Maintained the rendering pipelines of Visionary Render.
+- Shaders: Maintaining support for customer written post-processing shaders.
+Also contributed to Ocean simulation shader (Implemented Snell's Window).
+
+<b>Virtalis Reach</b>
+
+After working on Visionary Render, I was moved onto the Virtalis Reach team during the prototyping stages and then to release to customers.
+This is a web client used to run Visionary Render projects in a browser.
+
+During this time I was working on the WebGL renderer alongside other serverside operations. Such as support for
+VR/XR headsets using WebXR and communication between the web client and server.
+
+During my time working on Virtalis Reach, I have worked on:
+
+- WebGL rendering pipelines and working on WebXR capabilities.
+- Writing React components that communicate with the server to fetch the scene tree and update it.
+- Using Rest API to fetch scene data.
+
+Both products I had to overcome some challenges. Such as performance of the rendering systems as CAD data
+can be very complex. Especially trying to render these geometries in a browser.
+
+
+
+<b>Visionary Render Technologies:</b>
+- C/C++
+- OpenGL
+- Deferred Rendering
+- GLSL shaders
+- Post-processing
+- CMAKE
+- OpenVR
+- Animations
+
+<b>Virtalis Reach Technologies:</b>
+- TypeScript
+- C++ 17
+- React
+- WebGL
+- WebXR
+- TCP sockets
 
 [visren]: https://www.virtalis.com/software/visionary-render
 [reach]: https://www.virtalis.com/software/virtalis-reach
