@@ -27,6 +27,9 @@ colors:  #in hex code if not noted else
 
 # Making projects separate from posts
 collections:
+  experience:
+    output: true
+    permalink: /experience/:title/
   projects:
     output: true
     permalink: /projects/:title/
