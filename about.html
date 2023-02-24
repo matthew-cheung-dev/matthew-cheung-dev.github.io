@@ -7,14 +7,40 @@ permalink: /about/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-6">
-            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="">
+        {% for member in site.members %}
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->
+            </div><!-- he wrap -->
+            <h4>{{ member.name }}</h4>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <p>{{ member.text }}</p>
+            <div class="hline"></div>
+        </div><! --/col-lg-3 -->
+        {% endfor %}
+            </br>
         </div>
         <div class="col-lg-6">
-            <h4>More About Our Agency.</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-            <p><br/><a href="{{ "/contact/" | prepend: site.baseurl }}" class="btn btn-theme">Contact Us</a></p>
+            <h4>About Me</h4>
+            <!-- intro Paragraph-->
+            <p>The first game I remember playing was Frogger on my cousin's computer. However, my passion for games started while I was playing StarCraft Brood war on my parent's computer.
+              After I found out I could make a living out of playing games competitively, I pursued as a professional gamer.
+              As I got closer to the age that I could compete in professional competitions, my passion for games slowly transitioned into games development.</p>
+            <!--Education-->
+            <p>After finishing my studies in secondary school, I studied IT in Exeter College achieving a Level 3 BTEC Extended Diploma.
+              I really enjoyed the coding aspect of my course and this helped in my decision to study Games Technology at University of the West of England(UWE).
+              I am really happy that I chose UWE to further my studies into Games Technology</p>
+            <!-- LinkedIn link-->
+            <p>My LinkedIn: <a href="https://www.linkedin.com/in/matthew-cheung2509/">here</a> </p>
+            <p><br/><a href="{{ "/contact/" | prepend: site.baseurl }}" class="btn btn-theme">Contact Me</a></p>
         </div>
-    </div><!--/row -->
-</div><!--/container -->
+    </div><! --/row -->
+</div><! --/container -->
